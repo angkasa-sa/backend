@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "start-dev": "nodemon server.js"
+    "start": "nodemon index.js",
+    "start-dev": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -17,7 +17,7 @@
     "multer": "^1.4.5-lts.1",
     "vite": "^5.0.12"
   },
-  "main": "server.js",
+  "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
